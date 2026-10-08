@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+input[type="range"] {
+  accent-color: #4f46e5;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
+
+.partly-pin {
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  border: 2px solid white;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.35);
+}
